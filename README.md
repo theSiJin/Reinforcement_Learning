@@ -1,6 +1,7 @@
 # Reinforcement_Learning
 
-Some projects in reinforcement learning.
+Some projects in reinforcement learning. Check out the instruction under each project directory.
+
 
 
 Related background and articles:
