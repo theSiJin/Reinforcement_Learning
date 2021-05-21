@@ -3,21 +3,23 @@
 Some projects in reinforcement learning.
 
 
+Related background and articles:
+
 ## 1. Replication of Sutton (88)
 
-__Instructions__
+Original paper link: http://incompleteideas.net/papers/sutton-88-with-erratum.pdf
+Erratum: http://www.incompleteideas.net/papers/sutton-88-erratum.pdf
 
-The program requires Python 3 and is only tested under the course environment Python 3.6.5. Two additional but common packages, `numpy` and `matplotlib` are also required. If you do not have them installed, they can be installed via pip:
 
-```
-pip install numpy==1.19.2
-pip install matplotlib==3.3.4
-```
+## 2. Lunar game 
 
-The program can be easily run in the terminal as:
+OpenAI Environment: https://gym.openai.com/envs/LunarLander-v2/
+DQN: 
+- https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
+- or https://www.nature.com/articles/nature14236 (more recommended)
 
-```shell
-python td_lambda.py
-```
 
-The three replicated figures will saved in the local working directory. Feel free to tune the parameters and rerun the program.
+
+## 3. Soccer game
+
+CE-Q: https://www.aaai.org/Papers/ICML/2003/ICML03-034.pdf
